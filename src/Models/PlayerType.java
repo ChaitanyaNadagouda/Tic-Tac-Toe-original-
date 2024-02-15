@@ -1,2 +1,6 @@
-package Models;public enum PlayerType {
+package Models;
+
+public enum PlayerType {
+    HUMAN,
+    BOT
 }

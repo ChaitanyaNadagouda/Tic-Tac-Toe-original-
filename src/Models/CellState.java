@@ -1,2 +1,5 @@
-package Models;public enum CellState {
+package Models;
+
+public enum CellState {
+    EMPTY,FILLED
 }

@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="" />
+    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/EasyBotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/MediumPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/ColWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/RowWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/WinningStrategies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/DuplicateSymbolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/MoreThanOneBotException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/PlayersCountMismatchException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/BotDifficultyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/BotDifficultyLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/CellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/CellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Moves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/PlayerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/PlayerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategies/ColWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategies/DiagonalWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategies/RowWinningStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strategies/WinningStrategies.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -23,13 +64,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/CHAITANYA/Desktop/dev-springboot-project/02-Spring-boot-core-demo/Tic-Tac-Toe/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exception" />
+      <recent name="exception." />
+      <recent name="Models" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -45,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707984959000</updated>
-      <workItem from="1707984960197" duration="6000" />
+      <workItem from="1707984960197" duration="6582000" />
     </task>
     <servers />
   </component>

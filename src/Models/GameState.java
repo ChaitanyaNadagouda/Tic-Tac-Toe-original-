@@ -1,2 +1,5 @@
-package Models;public enum GameState {
+package Models;
+
+public enum GameState {
+    INPROG,PAUSED,CONCLUDED
 }

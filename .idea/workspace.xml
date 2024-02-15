@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/BotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/EasyBotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/MediumPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/ColWinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/DiagonalWinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/RowWinningStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WinningStrategies/WinningStrategies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/DuplicateSymbolException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/MoreThanOneBotException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/PlayersCountMismatchException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/BotDifficultyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/BotDifficultyLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/CellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/CellState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Moves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/PlayerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/PlayerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategies/ColWinningStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategies/DiagonalWinningStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategies/RowWinningStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strategies/WinningStrategies.java" beforeDir="false" />
-    </list>
+    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="botplayingstrategy" />
       <recent name="exception" />
       <recent name="exception." />
       <recent name="Models" />
@@ -98,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707984959000</updated>
-      <workItem from="1707984960197" duration="6582000" />
+      <workItem from="1707984960197" duration="7228000" />
     </task>
     <servers />
   </component>

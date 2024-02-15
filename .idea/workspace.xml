@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="" />
+    <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WinningStrategies/ColWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/ColWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WinningStrategies/DiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/DiagonalWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WinningStrategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WinningStrategies/WinningStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/WinningStrategies.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,22 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/CHAITANYA/Desktop/dev-springboot-project/02-Spring-boot-core-demo/Tic-Tac-Toe/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/CHAITANYA/Desktop/dev-springboot-project/02-Spring-boot-core-demo/Tic-Tac-Toe/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="botplayingstrategy" />
@@ -57,6 +67,26 @@
       <recent name="exception." />
       <recent name="Models" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppRunner.App" />
+      <module name="Tic-Tac-Toe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -73,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707984959000</updated>
-      <workItem from="1707984960197" duration="7644000" />
+      <workItem from="1707984960197" duration="11354000" />
     </task>
     <servers />
   </component>
@@ -88,6 +118,10 @@
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="exception.DuplicateSymbolException" package="exception" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

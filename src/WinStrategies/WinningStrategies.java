@@ -1,4 +1,4 @@
-package WinningStrategies;
+package WinStrategies;
 
 import Models.Board;
 import Models.Moves;

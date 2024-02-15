@@ -1,6 +1,6 @@
 package Models;
 
-import WinningStrategies.WinningStrategies;
+import WinStrategies.WinningStrategies;
 import exception.DuplicateSymbolException;
 import exception.MoreThanOneBotException;
 import exception.PlayersCountMismatchException;
@@ -11,24 +11,28 @@ import java.util.List;
 import java.util.Set;
 
 public class Game {
-    Board board ;
-    int nextplayerindex ;
-    List<Player> playerslist ;
-    Player winningplayer ;
-    GameState gameState ;
+    private Board board ;
+    private int nextplayerindex ;
+    private List<Player> players ;
+    private Player winner ;
+    private GameState gameState ;
     private List<WinningStrategies> winningStrategies ;
 
 //    comeback and create constructors
 
 
-    public Game(int dimension, List<Player> playerslist, List<WinningStrategies> winningStrategies) {
+    private Game(int dimension, List<Player> players, List<WinningStrategies> winningStrategies) {
         this.board = new Board(dimension) ;
-        this.playerslist = playerslist;
+        this.players = players;
         this.winningStrategies = winningStrategies;
     }
 
-    public Builder getBuilder(){
+    public static Builder getBuilder(){
         return new Builder() ;
+    }
+
+    public void printBoard() {
+        board.printBoard() ;
     }
 
     public static class Builder{
@@ -116,19 +120,19 @@ public class Game {
     }
 
     public List<Player> getPlayerslist() {
-        return playerslist;
+        return players;
     }
 
-    public void setPlayerslist(List<Player> playerslist) {
-        this.playerslist = playerslist;
+    public void setPlayerslist(List<Player> players) {
+        this.players = players;
     }
 
     public Player getWinningplayer() {
-        return winningplayer;
+        return winner;
     }
 
-    public void setWinningplayer(Player winningplayer) {
-        this.winningplayer = winningplayer;
+    public void setWinningplayer(Player winner) {
+        this.winner = winner;
     }
 
     public GameState getGameState() {

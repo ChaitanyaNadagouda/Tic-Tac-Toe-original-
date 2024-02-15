@@ -42,4 +42,12 @@ public class Cell {
     public void setCellstate(CellState cellstate) {
         this.cellstate = cellstate;
     }
+
+    public void display() {
+        if(cellstate==CellState.FILLED){
+            System.out.print("| " + player.getSymbol() + " |");
+        }else{
+            System.out.print("| - |");
+        }
+    }
 }

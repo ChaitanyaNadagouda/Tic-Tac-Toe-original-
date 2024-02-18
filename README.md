@@ -4,11 +4,6 @@ Tic-Tac-Toe Game - Command Line Interface
 Welcome to the Tic-Tac-Toe Command Line Game! 
 This repository houses a fully playable Tic-Tac-Toe game implemented in Java, where you can challenge your friends or play against bots of varying difficulty levels.
 
-
-Tic-Tac-Toe Game - Command Line Interface
-
-Welcome to the Tic-Tac-Toe Command Line Game! This repository houses a fully playable Tic-Tac-Toe game implemented in Java, where you can challenge your friends or play against bots of varying difficulty levels.
-
 How to Play
 
 Clone the Repository:

@@ -21,7 +21,7 @@ public class App {
         int dimension = 3 ;
         List<Player> playerList = new ArrayList<>() ;
         List<WinningStrategies> winningStrategies = new ArrayList<>() ;
-        playerList.add(new Player(1,"Keerthi",'X', PlayerType.HUMAN)) ;
+        playerList.add(new Player(1,"HUMAN",'X', PlayerType.HUMAN)) ;
         playerList.add(new Bot(2,"GPT",'O', PlayerType.BOT,BotDifficultyLevel.EASY)) ;
 
         winningStrategies.add(new ColWinningStrategy()) ;

@@ -6,18 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="76113070-45a2-4cf6-a4d7-4baabe22c1e7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppRunner/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppRunner/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BotPlayingStrategies/EasyBotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BotPlayingStrategies/EasyBotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinStrategies/ColWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/ColWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinStrategies/DiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/DiagonalWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinStrategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/RowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WinStrategies/WinningStrategies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WinStrategies/WinningStrategies.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +101,7 @@
       <workItem from="1708071145750" duration="11435000" />
       <workItem from="1708153178312" duration="374000" />
       <workItem from="1708162737974" duration="4106000" />
-      <workItem from="1708266581569" duration="3570000" />
+      <workItem from="1708266581569" duration="4899000" />
     </task>
     <servers />
   </component>

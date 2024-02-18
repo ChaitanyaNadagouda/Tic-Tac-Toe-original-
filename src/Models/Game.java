@@ -17,6 +17,7 @@ public class Game {
     private Player winner ;
     private GameState gameState ;
     private List<WinningStrategies> winningStrategies ;
+    private List<Moves> moves ;
 
 //    comeback and create constructors
 
@@ -25,6 +26,9 @@ public class Game {
         this.board = new Board(dimension) ;
         this.players = players;
         this.winningStrategies = winningStrategies;
+        this.gameState = GameState.INPROG ;
+        this.nextplayerindex = 0 ;
+        this.moves = new ArrayList<>() ;
     }
 
     public static Builder getBuilder(){
@@ -33,6 +37,71 @@ public class Game {
 
     public void printBoard() {
         board.printBoard() ;
+    }
+
+    public void makeMove() {
+        Player player = players.get(nextplayerindex);
+        Cell cell = player.makeMove(board);
+        Moves move = new Moves(cell, player);
+        moves.add(move) ;
+        if(checkWinner(move,board)){
+            gameState = GameState.CONCLUDED ;
+            winner = player ;
+            return ;
+        }
+        if(moves.size()== board.getDimension()* board.getDimension()){
+            gameState = GameState.DRAW ;
+            return ;
+        }
+        nextplayerindex++ ;
+        nextplayerindex = nextplayerindex%players.size() ;
+    }
+
+    private boolean checkWinner(Moves move, Board board) {
+        for(WinningStrategies winningstrategy:winningStrategies){
+            if(winningstrategy.checkWinner(board,move)){
+                return true ;
+            }
+        }
+        return false ;
+    }
+
+    public void undo() {
+        Moves lastMove = removeLastMove();
+
+        if (lastMove == null) return;
+
+        updateCellandUndoStrategies(lastMove);
+
+        updateNextPlayer();
+    }
+
+    private void updateCellandUndoStrategies(Moves lastMove) {
+        Cell cell = lastMove.getCell();
+        cell.setCellstate(CellState.EMPTY);
+        cell.setPlayer(null);
+
+        for(WinningStrategies winningStrategies1:winningStrategies){
+            winningStrategies1.undo(board, lastMove) ;
+        }
+    }
+
+    private Moves removeLastMove() {
+        if(moves.size()==0){
+            System.out.println("No moves to undo");
+            return null;
+        }
+        Moves lastMove = moves.get(moves.size()-1) ;
+        moves.remove(lastMove) ;
+        return lastMove;
+    }
+
+    private void updateNextPlayer() {
+        if(nextplayerindex!=0){
+            nextplayerindex-- ;
+        }else{
+            nextplayerindex = players.size()-1 ;
+        }
     }
 
     public static class Builder{
@@ -119,11 +188,11 @@ public class Game {
         this.nextplayerindex = nextplayerindex;
     }
 
-    public List<Player> getPlayerslist() {
+    public List<Player> getPlayers() {
         return players;
     }
 
-    public void setPlayerslist(List<Player> players) {
+    public void setPlayers(List<Player> players) {
         this.players = players;
     }
 

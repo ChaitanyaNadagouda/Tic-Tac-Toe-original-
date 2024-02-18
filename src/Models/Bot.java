@@ -12,4 +12,14 @@ public class Bot extends Player {
         this.botDifficultyLevel = botDifficultyLevel;
         this.botPlayingStrategy = BotPlayingStrategyFactory.getBotPlayingStrategyForDifficultyLevel(botDifficultyLevel) ;
     }
+    @Override
+    public Cell makeMove(Board board){
+        System.out.println("Get Ready for GPT's Move");
+        Cell cell = botPlayingStrategy.makeMove(board);
+        cell.setCellstate(CellState.FILLED) ;
+        cell.setPlayer(this);
+
+        return cell ;
+
+    }
 }

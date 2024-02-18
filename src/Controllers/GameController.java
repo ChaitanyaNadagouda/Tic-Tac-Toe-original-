@@ -1,6 +1,7 @@
 package Controllers;
 
 import Models.Game;
+import Models.Moves;
 import Models.Player;
 import WinStrategies.WinningStrategies;
 import exception.DuplicateSymbolException;
@@ -19,5 +20,11 @@ public class GameController {
     }
     public void printBoard(Game game){
         game.printBoard() ;
+    }
+    public void makeMove(Game game){
+        game.makeMove() ;
+    }
+    public void undo(Game game){
+        game.undo() ;
     }
 }
